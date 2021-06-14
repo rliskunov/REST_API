@@ -1,0 +1,154 @@
+_type: export
+__export_format: 4
+__export_date: 2021-06-14T11:53:10.600Z
+__export_source: insomnia.desktop.app:v2021.3.0
+resources:
+  - _id: req_4338ee23c2ef48909b9e28aeb32a2ce5
+    parentId: fld_8c1d753d82684e688545b2e575d7bc06
+    modified: 1623669142467
+    created: 1623669129175
+    url: localhost:5000/tutorials/1
+    name: delete
+    description: ""
+    method: DELETE
+    body: { }
+    parameters: [ ]
+    headers: [ ]
+    authentication: { }
+    metaSortKey: -1623668908218
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_8c1d753d82684e688545b2e575d7bc06
+    parentId: wrk_fefe5734cb15482a8c5c813e06ac94a9
+    modified: 1623669230063
+    created: 1623668912085
+    name: localhost
+    description: ""
+    environment: { }
+    environmentPropertyOrder: null
+    metaSortKey: -1623668912085
+    _type: request_group
+  - _id: wrk_fefe5734cb15482a8c5c813e06ac94a9
+    parentId: null
+    modified: 1623669219994
+    created: 1623668402619
+    name: REST
+    description: ""
+    scope: collection
+    _type: workspace
+  - _id: req_4cdf14f0bb4a4623893121ad0a961012
+    parentId: fld_8c1d753d82684e688545b2e575d7bc06
+    modified: 1623668923003
+    created: 1623668432504
+    url: localhost:5000/tutorials
+    name: get
+    description: ""
+    method: GET
+    body: { }
+    parameters: [ ]
+    headers: [ ]
+    authentication: { }
+    metaSortKey: -1623668908168
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_b24e254f0357484fac843a776c9b45b4
+    parentId: fld_8c1d753d82684e688545b2e575d7bc06
+    modified: 1623669010983
+    created: 1623668904151
+    url: localhost:5000/tutorials/5
+    name: update
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"description": "only PUT"
+        }
+    parameters: [ ]
+    headers:
+      - name: ""
+        value: ""
+        description: ""
+        id: pair_429ef57189784ba1b34c1241dbc16b73
+      - name: Content-Type
+        value: application/json
+        id: pair_072f5a86a2c84fc5a872f867943f9774
+    authentication: { }
+    metaSortKey: -1623668908118
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_ad9bc815cce2494286e20ad930bf1df5
+    parentId: fld_8c1d753d82684e688545b2e575d7bc06
+    modified: 1623668921771
+    created: 1623668452139
+    url: localhost:5000/tutorials
+    name: add
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"title": "Video #3",
+        	"description": "test"
+        }
+    parameters: [ ]
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_40b2d69fb61749d5b99702921600d952
+    authentication: { }
+    metaSortKey: -1623668908068
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_d263a2baca0f636cd4af43bc7b2a83cd9d482645
+    parentId: wrk_fefe5734cb15482a8c5c813e06ac94a9
+    modified: 1623668402649
+    created: 1623668402649
+    name: Base Environment
+    data: { }
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1623668402649
+    _type: environment
+  - _id: jar_d263a2baca0f636cd4af43bc7b2a83cd9d482645
+    parentId: wrk_fefe5734cb15482a8c5c813e06ac94a9
+    modified: 1623668402651
+    created: 1623668402651
+    name: Default Jar
+    cookies: [ ]
+    _type: cookie_jar
+  - _id: spc_d9b00c695d134018b8e8bc115f3d1cc1
+    parentId: wrk_fefe5734cb15482a8c5c813e06ac94a9
+    modified: 1623668402620
+    created: 1623668402620
+    fileName: Insomnia
+    contents: ""
+    contentType: yaml
+    _type: api_spec
