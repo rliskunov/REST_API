@@ -2,6 +2,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/macos,windows,linux,jetbrains,jetbrains+all,jetbrains+iml,python,venv,git,gitbook,tortoisegit,visualstudio,visualstudiocode,flask,pycharm+all,pycharm+iml,pydev,pycharm,jupyternotebooks,test,testinfra,testcomplete,libreoffice,microsoftoffice,ansibletower,ansible,netbeans,docz,docpress,docfx
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows,linux,jetbrains,jetbrains+all,jetbrains+iml,python,venv,git,gitbook,tortoisegit,visualstudio,visualstudiocode,flask,pycharm+all,pycharm+iml,pydev,pycharm,jupyternotebooks,test,testinfra,testcomplete,libreoffice,microsoftoffice,ansibletower,ansible,netbeans,docz,docpress,docfx
 
+### SQLite ###
+db.sqlite
+tests/db.sqlite
+
 ### Ansible ###
 *.retry
 
